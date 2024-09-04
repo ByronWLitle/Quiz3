@@ -25,6 +25,7 @@ namespace Quiz3
                 inputST = Console.ReadLine();
 
                 Console.WriteLine(""); //Divides space between prompts
+                //Check characters in string to match
                 for (int i = 0; i < inputST.Length; i++)
                 { 
                     if (inputST[i] = inputST(inputST.Length-1))
@@ -33,10 +34,12 @@ namespace Quiz3
                         break;
                     }
                 }
+                //Outputs if string is palindrome
                 if (isPalindrome == true)
                 {
                     Console.WriteLine($"Result: {inputST} is a palindrome.");
                 }
+                //Outputs if string is palindrome
                 else
                 {
                     Console.WriteLine($"Result: {inputST} is not a palindrome.");
